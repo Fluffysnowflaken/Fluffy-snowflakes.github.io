@@ -3,13 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Мой первый сайт</title>
+    <title>Мой сайт</title>
+    <!-- Подключаем ваши стили из файла style.css -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div style="text-align: center; margin-top: 50px; font-family: sans-serif;">
+
+    <div style="text-align: center; margin-top: 30px;">
         <h1>Привет! Это мой сайт на GitHub Pages</h1>
         <p>Скрипт ниже запустит интерактивные окна:</p>
+
+        <!-- Вставляем картинку из вашей папки img -->
+        <!-- ЗАМЕНИТЕ photo.jpg на точное название файла картинки в вашей папке img! -->
+        <img src="img/photo.jpg" alt="Моя картинка" style="max-width: 300px; border-radius: 10px; margin-top: 15px;">
     </div>
 
     <script>
@@ -28,7 +34,6 @@
         var a = 2;
         var x = 1 + (a *= 2);
 
-        // Ваши скрипты с prompt и alert
         var number = prompt("Введите число");
         if (number > 0) {
             alert(1);
